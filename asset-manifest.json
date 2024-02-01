@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/valentineforbae/static/css/main.95327e9d.css",
+    "main.js": "/valentineforbae/static/js/main.0a80c4a1.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/valentineforbae/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/lovies.JPG": "/valentineforbae/static/media/lovies.7a394f6b790dceda68cf.JPG",
+    "index.html": "/valentineforbae/index.html",
+    "main.95327e9d.css.map": "/valentineforbae/static/css/main.95327e9d.css.map",
+    "main.0a80c4a1.js.map": "/valentineforbae/static/js/main.0a80c4a1.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/valentineforbae/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95327e9d.css",
+    "static/js/main.0a80c4a1.js"
+  ]
+}
