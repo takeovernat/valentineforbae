@@ -10,6 +10,7 @@ function App() {
   const [x, setx] = useState(52);
   const [y, sety] = useState(55);
   const form = useRef();
+  const [selected, seSelected] = useState("");
 
   const body = document.querySelector("body");
   if (!body) {
@@ -39,6 +40,7 @@ function App() {
   };
 
   const clickedYes = () => {
+    seSelected("YES");
     alert(
       "LOL Its either you couldn't catch the no button or you really wanted to be my valentines date. Either way i got a notification of what you chose 😇"
     );
@@ -75,6 +77,7 @@ function App() {
       .then(
         (result) => {
           console.log(result.text);
+          console.log(form.current);
         },
         (error) => {
           console.log(error.text);
@@ -98,7 +101,13 @@ function App() {
       <p className="pre-valentine"> Will you be my</p>
       <p className="valentine">Valentine?</p>
       <form onSubmit={sendEmail} ref={form}>
-        <button style={yesStyle} type="submit" onClick={clickedYes}>
+        <button
+          style={yesStyle}
+          name="selected"
+          value={selected}
+          type="submit"
+          onClick={clickedYes}
+        >
           YES!
         </button>
       </form>
