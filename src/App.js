@@ -1,7 +1,6 @@
 import React, { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import Heart from "react-animated-heart";
-import loves from "./lovies.JPG";
 
 import "./App.css";
 
@@ -93,9 +92,7 @@ function App() {
         <p>&lt;--click for a surprise</p>
       </div>
       <div className="heart">
-        <a href={loves} download="lovies.JPG">
-          <Heart isClick={isClick} onClick={() => setClick(!isClick)} />
-        </a>
+        <Heart isClick={isClick} onClick={() => setClick(!isClick)} />
       </div>
 
       <p className="pre-valentine"> Will you be my</p>
