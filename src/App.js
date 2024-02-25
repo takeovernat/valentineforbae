@@ -88,9 +88,9 @@ function App() {
 
   return (
     <>
-      <p className="name">Andi</p>
+      <p className="name">Lover</p>
       <div className="clickme">
-        <p>&lt;--click for a surprise 😈</p>
+        <p>&lt;--click for a surprise</p>
       </div>
       <div className="heart">
         <a href={loves} download="lovies.JPG">
